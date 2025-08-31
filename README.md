@@ -1,0 +1,3 @@
+Main.py implements the core self-synchronization simulator: pulse-coupled fireflies moving in 2D, kd-tree neighborhoods, and an intra-step flash cascade that produces metrics/plots of phase dispersion and flashes per step;
+ObjectLocalization.py extends that model with objects and a base, using the same flashes for recruitment (detection radius, minimum carriers, carrier cap) and cooperative transport via carrier-centroid motion, recording informed-agents
+and delivery metrics; Colormap.py is a lightweight visualization tool that animates agents colored by phase with a colorbar so you can see phase waves and locking at a glance, and can optionally save the animation.
